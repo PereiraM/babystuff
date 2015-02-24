@@ -1,0 +1,91 @@
+/* app css stylesheet */
+.items {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 58.75rem;
+    list-style-type: none;
+}
+
+.item {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 58.75rem;
+}
+
+.items .item .thumbnail {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+    max-width: 18.75rem;
+}
+
+.items .item .content {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+    max-width: 28.75rem;
+}
+
+ul.specs {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.specs > li{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+ul.specs > li > span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul.specs dt {
+    font-weight: bold;
+}
+
+
+/*
+html {
+        font-size: 100%;
+}
+
+body {
+        font-size: 1rem;
+        padding-top: 20px;
+}
+
+
+
+.media {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        background: #eee;
+}
+
+.extended {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #cfcfcf;
+}
+*/

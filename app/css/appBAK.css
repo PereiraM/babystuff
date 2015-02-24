@@ -1,0 +1,142 @@
+/* app css stylesheet */
+html {
+        font-size: 100%;
+}
+
+body {
+        font-size: 1rem;
+        padding-top: 20px;
+}
+
+/*
+.item {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        max-width: 58.75rem;
+}
+
+.media {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 40%;
+        background: #eee;
+}
+
+.extended {
+        display: block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background: #cfcfcf;
+}
+*/
+
+
+.images {
+    background-color: white;
+    width: 450px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}
+
+.phones {
+    list-style: none;
+}
+
+.thumb {
+    float: left;
+    margin: -0.5em 1em 1.5em 0;
+    padding-bottom: 1em;
+    height: 100px;
+    width: 100px;
+}
+
+.phones li {
+    clear: both;
+    height: 115px;
+    padding-top: 15px;
+}
+
+/** Detail View **/
+img.item-image {
+    float: left;
+    margin-right: 3em;
+    margin-bottom: 2em;
+    background-color: white;
+    padding: 2em;
+    height: 400px;
+    width: 400px;
+    display: none;
+}
+
+img.item-image:first-child {
+    display: block;
+}
+
+
+ul.item-image-thumbs {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 98%;
+    border: 1% solid #999;
+    background: #777;
+}
+
+        ul.item-image-thumbs li {
+            display: block;
+            float: left;
+            margin: 0;
+            padding: 0;
+            width: 8.75rem;
+            height: 8.75rem;
+            background-color: #555;
+        }
+
+        ul.item-image-thumbs img {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        ul.item-image-thumbs img:hover {
+            cursor: pointer;
+        }
+
+
+ul.specs {
+    clear: both;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.specs > li{
+    display: inline-block;
+    width: 200px;
+    vertical-align: top;
+}
+
+ul.specs > li > span{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+ul.specs dt {
+    font-weight: bold;
+}
+
+h1 {
+    border-bottom: 1px solid gray;
+}
